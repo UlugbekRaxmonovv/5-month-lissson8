@@ -196,6 +196,7 @@ section .tixt-h1 .tixt-p p {
   justify-content: center;
   gap: 60px;
   flex-wrap: wrap;
+  padding: 100px 0;
 }
 .list .list-all .list-row .nav {
   display: flex;
@@ -253,6 +254,7 @@ section .tixt-h1 .tixt-p p {
   justify-content: center;
   gap: 60px;
   flex-wrap: wrap;
+  margin-top: -5%;
 }
 .box .list-all .list-row .nav {
   display: flex;
