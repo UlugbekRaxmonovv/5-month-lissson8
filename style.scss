@@ -123,6 +123,7 @@ a{
         justify-content: space-between;
         align-items: center;
         padding: 15px;
+        margin-top: -0.8%;
     }
 
 }
@@ -176,6 +177,11 @@ a{
 
 
 .hammasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
    
     .all{
         max-width: 380px;

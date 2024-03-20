@@ -25,6 +25,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+  margin-top: -0.8%;
 }
 
 .header-bot-box {
@@ -62,6 +63,13 @@ a {
   align-items: center;
 }
 
+.hammasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 .hammasi .all {
   max-width: 380px;
   width: 100%;
