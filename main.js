@@ -103,7 +103,8 @@ function createTable(data){
 </div>
 </section>
   `
-for(let i =createTable = 1 ; i<= 8; i++){
+for(let i =createTable = 1 ; i<= 9
+    ; i++){
     link+=javob
 }
 const div =document.querySelector('.hammasi').innerHTML = link
