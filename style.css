@@ -6,6 +6,7 @@
 
 body {
   font-family: "Anonymous Pro", monospace;
+  background-color: rgb(247, 232, 232);
 }
 
 a {
@@ -51,6 +52,7 @@ a {
 .header-bot-box .header-bot-1 .botA select {
   border: none;
   outline: none;
+  background-color: rgb(247, 232, 232);
 }
 .header-bot-box .header-bot-2 {
   display: flex;
@@ -64,6 +66,8 @@ a {
 }
 
 .hammasi {
+  max-width: 1240px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,8 +77,8 @@ a {
 .hammasi .all {
   max-width: 380px;
   width: 100%;
-  height: 400px;
-  background-color: whitesmoke;
+  height: 350px;
+  background-color: white;
 }
 .hammasi .all .all-row {
   display: flex;
@@ -86,12 +90,6 @@ a {
   padding: 8px 16px;
   background-color: white;
   font-size: 17px;
-}
-.hammasi .all .img > img {
-  padding: 0px 10px;
-  max-width: 350px;
-  height: 300px;
-  width: 100%;
 }
 .hammasi .bottom {
   max-width: 380px;
@@ -106,7 +104,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 70px;
 }
 .hammasi .bottom .bottom-all img {
   width: 150px;
@@ -383,12 +381,6 @@ footer .columnAll .footir-all {
   list-style: none;
   padding: 55px 0;
 }
-footer .columnAll .footir-all .footir-row .ikon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
 footer .columnAll .footir-all .footir-row h1 {
   font-family: SF Pro Text;
   font-size: 25px;
@@ -467,7 +459,6 @@ footer .columnAll .p-3 p {
     flex-direction: column;
     position: absolute;
     background: rgb(239, 230, 230);
-    top: 55px;
     right: 0;
     transition: 0.5s ease;
     width: 100%;

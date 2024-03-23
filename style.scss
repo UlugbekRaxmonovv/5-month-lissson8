@@ -7,6 +7,7 @@
 body{
     
     font-family: "Anonymous Pro", monospace;
+    background-color: rgb(247, 232, 232);
 }
 a{
     text-decoration: none;
@@ -16,101 +17,6 @@ a{
 }
 
 
-// header{
-//     .nav-top{
-//         position: absolute;
-//         top: 0;
-//         left: 0;
-//         right: 0;
-//         background: #454F5B;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         flex-wrap: wrap;
-//         gap: 180px;
-//         .nav-top-right{
-//             p{
-//                 font-family: SF Pro Display;
-//                 font-size: 16px;
-//                 font-weight: 500;
-//                 line-height: 26px;
-//                 letter-spacing: 0.12em;
-//                 text-align: left;
-//                 color: white;
-                
-//             }
-//             a{
-//                 font-family: SF Pro Display;
-//                 font-size: 16px;
-//                 font-weight: 500;
-//                 line-height: 26px;
-//                 letter-spacing: 0.12em;
-//                 text-align: left;
-//                 color: white;
-                
-//             }
-//         }
-
-//     }
-// .nav-bottom{
-//     display: flex;
-//     align-items: center;
-//     flex-wrap: wrap;
-//     padding: 70px 0;
-//     gap: 80px;
-//     .img{
-//         max-width:50.4px ;
-//         width:100%; 
-//         height: 42px;
-//     }
-//     .nav-itim{
-//        .nav-link{
-//         display: flex;
-//         align-items: center;
-//         flex-wrap: wrap;
-//         gap: 50px;
-//         a{
-//             text-decoration: none;
-//             font-family: SF Pro Text;
-//             font-size: 20px;
-//             font-weight: 300;
-//             line-height: 24px;
-//             letter-spacing: 0em;
-//             text-align: left;
-//             color: #161C24;
-            
-//         }
-//        }
-//     }
-//     .navbar{
-//         display: flex;
-//         align-items: center;
-//         justify-content: space-between;
-//         flex-wrap: wrap;
-//         gap: 10px;
-//         margin-left: 20%;
-//         .navbar-all{
-//             span{
-//                 font-family: SF Pro Display;
-//                 font-size: 18px;
-//                 font-weight: 400;
-//                 line-height: 21px;
-//                 letter-spacing: 0em;
-//                 text-align: left;
-//                 color: #161C24;
-
-                
-//             }
-//         }
-
-//     }
-
-// }
-    
-
-
-
-// }
 
 
 .header-top {
@@ -156,6 +62,7 @@ a{
         select {
             border: none;
             outline: none;
+            background-color: rgb(247, 232, 232) ;
         }
 
     }
@@ -177,6 +84,8 @@ a{
 
 
 .hammasi{
+    max-width: 1240px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,8 +95,8 @@ a{
     .all{
         max-width: 380px;
         width: 100%;
-        height: 400px;
-        background-color:whitesmoke;
+        height: 350px;
+        background-color:white;
         .all-row{
             display: flex;
             align-items: center;
@@ -203,13 +112,7 @@ a{
             }
 
         }
-        .img >img{
-            padding: 0px 10px ;
-            max-width: 350px;
-            height: 300px;
-            width: 100%;
-
-        }
+    
     }
 
     .bottom{
@@ -217,15 +120,16 @@ a{
         width: 100%;
         height: 200px;
         background-color:white;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid gray ;
         border-left: 1px solid gray;
         border-right: 1px solid gray;
+      
     
         .bottom-all{
             display: flex;
             align-items: center;
             justify-content:center ;
-            gap: 20px;
+            gap: 70px;
             img{
                 width: 150px;
             }
@@ -572,14 +476,8 @@ height: 548px;
             list-style: none;
             padding: 55px 0;
             .footir-row{
-                .ikon{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 20px;
-                 
-
-                }
+                
+           
                
                h1{
               //styleName: medium 18 \ 28;
@@ -706,7 +604,7 @@ height: 548px;
         flex-direction: column;
         position: absolute;
         background: rgb(239, 230, 230);
-        top: 55px;
+        // top: 55px;
         right: 0;
         transition: .5s ease;
         width: 100%;
